@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-30T22:14:43.349Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="3nXsNVQck8dT1-PKfUUL" version="23.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-30T22:25:29.168Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="we2qexJpWAKzddQDWKOE" version="23.0.0" type="github">
   <diagram name="Page-1" id="Nee233VI5h3raoB0SpvQ">
     <mxGraphModel dx="1482" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -64,6 +64,9 @@
         <mxCell id="f0VjcEv972JPRmQcH5-Z-26" value="collects raw data from ECUs" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="710" y="45" width="130" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="f0VjcEv972JPRmQcH5-Z-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="f0VjcEv972JPRmQcH5-Z-28" target="f0VjcEv972JPRmQcH5-Z-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="f0VjcEv972JPRmQcH5-Z-28" value="Priority-Driven Vulnerability Predictor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="340" y="320" width="140" height="70" as="geometry" />
         </mxCell>
@@ -96,6 +99,36 @@
         </mxCell>
         <mxCell id="f0VjcEv972JPRmQcH5-Z-38" value="Directs predicted vulnerability patterns to the Fuzzing Techniques Integration Module" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="90" y="310" width="180" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="f0VjcEv972JPRmQcH5-Z-40" value="Fuzzing Techniques Integration Module" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="580" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="f0VjcEv972JPRmQcH5-Z-43" value="Brute-Force Fuzzer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="560" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="f0VjcEv972JPRmQcH5-Z-44" value="Mutation Fuzzer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="610" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="f0VjcEv972JPRmQcH5-Z-45" value="State Change Identifier" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="660" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="f0VjcEv972JPRmQcH5-Z-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="f0VjcEv972JPRmQcH5-Z-46" target="f0VjcEv972JPRmQcH5-Z-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f0VjcEv972JPRmQcH5-Z-46" value="tests all combinations of certain elements within a message" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="682.5" y="500" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="f0VjcEv972JPRmQcH5-Z-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="f0VjcEv972JPRmQcH5-Z-52" target="f0VjcEv972JPRmQcH5-Z-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f0VjcEv972JPRmQcH5-Z-52" value="introduces small changes to messages" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="672.5" y="580" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="f0VjcEv972JPRmQcH5-Z-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="f0VjcEv972JPRmQcH5-Z-57" target="f0VjcEv972JPRmQcH5-Z-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f0VjcEv972JPRmQcH5-Z-57" value="focuses on varying critical bits" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="677.5" y="660" width="160" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
