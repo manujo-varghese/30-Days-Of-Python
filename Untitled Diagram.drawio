@@ -1,9 +1,57 @@
-<mxfile host="app.diagrams.net" modified="2024-03-24T04:25:27.883Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" version="24.0.8" etag="QcLtOWP4E06cbWwn_7gu" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-24T04:25:53.883Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="LEZ685h6TkA-JapAVTkh" version="24.0.8" type="github">
   <diagram name="Page-1" id="syjHgxSAs4dE2zH3MkDj">
-    <mxGraphModel>
+    <mxGraphModel dx="1325" dy="699" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="moMwSkeidx2Nt5F2zJko-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="moMwSkeidx2Nt5F2zJko-2" target="moMwSkeidx2Nt5F2zJko-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="moMwSkeidx2Nt5F2zJko-2" value="2.Signal Segmentation Module&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="moMwSkeidx2Nt5F2zJko-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="moMwSkeidx2Nt5F2zJko-4" target="moMwSkeidx2Nt5F2zJko-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="moMwSkeidx2Nt5F2zJko-4" value="3.&amp;nbsp;&amp;nbsp;Automated Reverse Engineering Module" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="moMwSkeidx2Nt5F2zJko-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="moMwSkeidx2Nt5F2zJko-6" target="moMwSkeidx2Nt5F2zJko-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="moMwSkeidx2Nt5F2zJko-6" value="4.&amp;nbsp;Priority-Driven Vulnerability Predictor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="moMwSkeidx2Nt5F2zJko-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="moMwSkeidx2Nt5F2zJko-8" target="moMwSkeidx2Nt5F2zJko-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="moMwSkeidx2Nt5F2zJko-8" value="5.Fuzzing techniques Integration Module" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="moMwSkeidx2Nt5F2zJko-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="moMwSkeidx2Nt5F2zJko-10" target="moMwSkeidx2Nt5F2zJko-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="moMwSkeidx2Nt5F2zJko-10" value="1.&amp;nbsp;Data Collector Module" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="moMwSkeidx2Nt5F2zJko-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="moMwSkeidx2Nt5F2zJko-13" target="moMwSkeidx2Nt5F2zJko-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="moMwSkeidx2Nt5F2zJko-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="moMwSkeidx2Nt5F2zJko-13" target="moMwSkeidx2Nt5F2zJko-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="420" y="340" />
+              <mxPoint x="630" y="340" />
+              <mxPoint x="630" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="moMwSkeidx2Nt5F2zJko-13" value="6.&amp;nbsp;Real-Time Feedback System" style="rounded=0;whiteSpace=wrap;html=1;direction=west;" vertex="1" parent="1">
+          <mxGeometry x="330" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="moMwSkeidx2Nt5F2zJko-14" value="7.&amp;nbsp;Output and Analysis Layer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
